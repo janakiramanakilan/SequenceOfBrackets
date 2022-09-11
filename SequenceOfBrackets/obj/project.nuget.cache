@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ilOxfX/OxCJ1MPEevk4GrBzL4sFJSlM7xHdP98ZbdbHZLVwmVu+P2tp7ozOSUxGwi+hixV/dc9M6juxC7mlTg==",
+  "dgSpecHash": "Z1JvKQ0+FkkU+G7paI2OO42QQTDKKJkKiSQ1sO6KCY2ynJzEg8K1LewWoYZcYvNKknXFYNLhFW4ju/X5bv2Bnw==",
   "success": true,
-  "projectFilePath": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets.csproj",
+  "projectFilePath": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets\\SequenceOfBrackets.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

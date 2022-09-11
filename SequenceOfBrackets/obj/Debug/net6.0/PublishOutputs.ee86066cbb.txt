@@ -1,0 +1,5 @@
+D:\VS Code\SequenceOfBrackets\bin\Debug\net6.0\publish\SequenceOfBrackets.exe
+D:\VS Code\SequenceOfBrackets\bin\Debug\net6.0\publish\SequenceOfBrackets.dll
+D:\VS Code\SequenceOfBrackets\bin\Debug\net6.0\publish\SequenceOfBrackets.deps.json
+D:\VS Code\SequenceOfBrackets\bin\Debug\net6.0\publish\SequenceOfBrackets.runtimeconfig.json
+D:\VS Code\SequenceOfBrackets\bin\Debug\net6.0\publish\SequenceOfBrackets.pdb

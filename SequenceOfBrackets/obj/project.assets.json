@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets.csproj",
+      "projectUniqueName": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets\\SequenceOfBrackets.csproj",
       "projectName": "SequenceOfBrackets",
-      "projectPath": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets.csproj",
+      "projectPath": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets\\SequenceOfBrackets.csproj",
       "packagesPath": "C:\\Users\\sugan\\.nuget\\packages\\",
-      "outputPath": "D:\\VS Code\\SequenceOfBrackets\\obj\\",
+      "outputPath": "D:\\VS Code\\SequenceOfBrackets\\SequenceOfBrackets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sugan\\AppData\\Roaming\\NuGet\\NuGet.Config",

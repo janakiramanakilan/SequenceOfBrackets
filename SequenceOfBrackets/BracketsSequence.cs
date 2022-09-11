@@ -13,7 +13,7 @@ public class BracketsSequence
 				if (st.Count == 0) {
 					return "too many closing brackets";
 				}
-				else if (!BracketsMatching.isBracketsMatching(st.Pop(), seqExp[i])) {
+				if (!BracketsMatching.isBracketsMatching(st.Pop(), seqExp[i])) {
 					return "outer brackets closed before inner brackets have closed";
 				}
 			}
@@ -21,9 +21,9 @@ public class BracketsSequence
 		
 		if (st.Count == 0)
 			return "balanced"; 
-		else {
-			return "too many opening brackets";
-		}
+		
+		return "too many opening brackets";
+		
 	}
     public static bool IsOpeningBracket(char input) => "({[".Any(c => c == input);
     public static bool IsClosingBracket(char input) => ")}]".Any(c => c == input);

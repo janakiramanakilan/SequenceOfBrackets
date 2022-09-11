@@ -9,7 +9,7 @@ public class Program {
 	
         string? value=string.Empty;
         do{
-			Console.WriteLine("\nEnter the validation or Press 'x' to Exit the validation...");
+			Console.WriteLine("\nEnter the validation sequence or Press 'x' to Exit the validation...");
        		value = Console.ReadLine();
 			char[] sequenceExpression = value!.ToCharArray();
 			if (value!.ToLower()!="x")

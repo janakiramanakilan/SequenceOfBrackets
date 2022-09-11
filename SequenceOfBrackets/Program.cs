@@ -46,13 +46,13 @@ public class BracketSequence {
         string? continueValidation=string.Empty;
         do{
        string? value= Console.ReadLine();
-		char[] sequenceExpression = value.ToCharArray();
+		char[] sequenceExpression = value!.ToCharArray();
 
 
         Console.WriteLine(checkBracketsSequence(sequenceExpression));
         Console.WriteLine("\npress 'y' to continue the validation...");
         continueValidation= Console.ReadLine();
-        }while(continueValidation.ToLower()=="y");
+        }while(continueValidation!.ToLower()=="y");
         		
 	}
 }

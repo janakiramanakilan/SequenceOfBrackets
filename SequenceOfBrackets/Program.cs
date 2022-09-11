@@ -50,9 +50,9 @@ public class BracketSequence {
 
 
         Console.WriteLine(checkBracketsSequence(sequenceExpression));
-        Console.WriteLine("\npress 'y' to continue the validation...");
+        Console.WriteLine("\npress 'x' to Exit the validation...");
         continueValidation= Console.ReadLine();
-        }while(continueValidation!.ToLower()=="y");
+        }while(continueValidation!.ToLower()!="x");
         		
 	}
 }

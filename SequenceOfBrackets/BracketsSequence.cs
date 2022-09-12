@@ -8,7 +8,7 @@ public class BracketsSequence
 		for (int i = 0; i < seqExp.Length; i++) {
 			if ( IsOpeningBracket(seqExp[i]))
 				st.Push(seqExp[i]);
-			else if (IsClosingBracket(seqExp[i])) {
+			if (IsClosingBracket(seqExp[i])) {
 				if (st.Count == 0) {
 					return "too many closing brackets";
 				}
@@ -16,8 +16,7 @@ public class BracketsSequence
 					return "outer brackets closed before inner brackets have closed";
 				}
 			}
-			else
-			return "Not a valid Sequence";
+			
 		}
 		
 		if (st.Count == 0)

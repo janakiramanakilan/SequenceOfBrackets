@@ -14,10 +14,10 @@ public class Program
 		{
 			Console.WriteLine("\nEnter the validation sequence or Press 'x' to Exit the validation...");
        		value = Console.ReadLine();
-			char[] sequenceExpression = value!.ToCharArray();
+			char[] sequenceExpression = value!.Trim().ToCharArray();
 			if (string.IsNullOrEmpty(value)) break;
 			Console.WriteLine(BracketsSequence.CheckBracketsSequence(sequenceExpression));
-        }while(value!.ToLower()!="x");
+        }while(value!.Trim().ToLower()!="x");
     }
 	catch(Exception ex)
 	{

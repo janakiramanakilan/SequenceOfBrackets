@@ -3,26 +3,26 @@
 using System.Collections.Generic;
 namespace SequenceOfBrackets;
 
-public class Program {
+public class Program 
+{
 	public static void Main(string[] args)
 	{
-	
+	try
+	{
         string? value=string.Empty;
-        do{
+        do
+		{
 			Console.WriteLine("\nEnter the validation sequence or Press 'x' to Exit the validation...");
        		value = Console.ReadLine();
 			char[] sequenceExpression = value!.ToCharArray();
-			if (value!.ToLower()!="x")
-			{
-			try{
-				Console.WriteLine(BracketsSequence.CheckBracketsSequence(sequenceExpression));
-			}
-			catch(Exception ex){
-				Console.WriteLine(ex.Message);
-			}
-			}
+			if (string.IsNullOrEmpty(value)) break;
+			Console.WriteLine(BracketsSequence.CheckBracketsSequence(sequenceExpression));
         }while(value!.ToLower()!="x");
-        		
+    }
+	catch(Exception ex)
+	{
+			Console.WriteLine("Please enter the valid bracket sequence");
+	}	
 	}
 }
 

@@ -27,6 +27,4 @@ public static Boolean IsBracketsMatching(char char1, char char2)
 	
 	}
 	
-	
-	
 }

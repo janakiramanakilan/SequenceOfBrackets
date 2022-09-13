@@ -23,7 +23,6 @@ public class BracketsSequence
 			return "balanced"; 
 		
 		return "too many opening brackets";
-		
 	}
     public static bool IsOpeningBracket(char input) => "({[".Any(c => c == input);
     public static bool IsClosingBracket(char input) => ")}]".Any(c => c == input);

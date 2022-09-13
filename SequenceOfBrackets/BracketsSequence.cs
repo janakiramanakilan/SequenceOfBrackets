@@ -12,7 +12,7 @@ public class BracketsSequence
 				if (st.Count == 0) {
 					return "too many closing brackets";
 				}
-				if (!BracketsMatching.isBracketsMatching(st.Pop(), seqExp[i])) {
+				if (!BracketsMatching.IsBracketsMatching(st.Pop(), seqExp[i])) {
 					return "outer brackets closed before inner brackets have closed";
 				}
 			}
